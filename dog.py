@@ -346,8 +346,8 @@ def checkFace(picpath, personid):
     s = base64_data.decode()
     pic_b64 = 'data:image/jpg;base64,' + s  # 将图片解码
 
-    SecretId = "AKIDFJ7fy1nIWVEgsqrc7ML3UfZDaiaCYdT2"  # id
-    SecretKey = "KNAgvuc3D6j6C3ey2rQkpdARRChvsYy7"  # 密钥
+    SecretId = "输入你的腾讯云id"  # id
+    SecretKey = "输入你的腾讯云密钥"  # 密钥
 
     try:
         # 实例化一个认证对象
@@ -578,9 +578,9 @@ def sound():
 # 发送邮件
 def sendEmail():
     # 设置服务器所需信息
-    fromaddr = '1137528068@qq.com'
-    password = 'rmlkulkncwgbgbfd'  # qq邮箱授权码
-    toaddrs = ['757560948@qq.com', '1405257838@qq.com']
+    fromaddr = '输入你的邮箱'
+    password = '输入你的qq邮箱授权码'  # 邮箱授权码
+    toaddrs = ['输入你要发送的邮箱', '输入你要发送的邮箱']
 
     # 设置email信息
     content = 'hello, this is email content.'
